@@ -1,0 +1,72 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "blocks",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o blocks_domain.pddl -f blocks_problem.pddl"
+        },
+        {
+            "label": "bananas",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o bananas_domain.pddl -f bananas_problem.pddl -O -g 1 -h 1"
+        },
+        {
+            "label": "ej1",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej1_domain.pddl -f ej1_problem.pddl -O"
+        },
+        {
+            "label": "ej2_1",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej2_domain.pddl -f ej2_problem.1.pddl -O  -g 1 -h 2"
+        },
+        {
+            "label": "ej2_2",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej2_domain.pddl -f ej2_problem.2.pddl -O  -g 1 -h 2"
+        },
+        {
+            "label": "ej3",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej3_domain.pddl -f ej3_problem.pddl -O -g 1 -h 2"
+        },
+        {
+            "label": "ej4",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej4_domain.pddl -f ej4_problem.pddl -O -g 1 -h 5"
+        },
+        {
+            "label": "ej5",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej5_domain.pddl -f ej5_problem.pddl -O -g 1 -h 5"
+        },
+        {
+            "label": "ej6_1",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej6_domain.pddl -f ej6_problem.1.pddl"
+        },
+        {
+            "label": "ej6_2",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej6_domain.pddl -f ej6_problem.2.pddl"
+        },
+        {
+            "label": "ej7_1",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej7_domain.pddl -f ej7_problem.1.pddl"
+        },
+        {
+            "label": "ej7_2",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej7_domain.pddl -f ej7_problem.2.pddl"
+        },
+        {
+            "label": "ej7_3",
+            "type": "shell",
+            "command": "./Metric-FF/ff -d . -o ej7_domain.pddl -f ej7_problem.3.pddl"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Descripci\IeC {\'o}n de la pr\IeC {\'a}ctica}{2}{section.1}
+\contentsline {section}{\numberline {2}Implementaci\IeC {\'o}n de A*}{2}{section.2}
+\contentsline {section}{\numberline {3}Aumentando la seguridad del camino}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Consideraciones sobre el mapa}{3}{subsection.3.1}
+\contentsline {section}{\numberline {4}Mejora A* (HPA*)}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Creaci\IeC {\'o}n de la jeraqu\IeC {\'\i }a}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}B\IeC {\'u}squeda de caminos}{6}{subsection.4.2}
+\contentsline {section}{\numberline {5}Experimento}{6}{section.5}
+\contentsline {section}{\numberline {6}Reflexiones y mejoras posibles}{9}{section.6}
+\contentsline {section}{\numberline {7}Bibliograf\IeC {\'\i }a}{9}{section.7}

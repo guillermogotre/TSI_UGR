@@ -1,0 +1,8 @@
+prefix=/home/guillermo/UGR/TSI/PRACTICA/catkin_ws_navegacion/install
+
+Name: my_astar_planner
+Description: Description of my_astar_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/guillermo/UGR/TSI/PRACTICA/catkin_ws_navegacion/install/lib 
+Requires: 

@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "help",
+            "type": "shell",
+            "command": "htnp/htnp.sh --help"
+        },
+        // wine htnp/htnp.exe -d materialEjercicios/dominio-bloques.pddl -p materialEjercicios/problema-bloques.pddl 2>&1  | dos2unix
+        {
+            "label": "zeno0",
+            "type": "shell",
+            "command": "htnp/htnp.sh -d src/zenotravel-V00.pddl -p src/problema-zeno-0.pddl"
+        },
+        {
+            "label": "zeno1",
+            "type": "shell",
+            "command": "htnp/htnp.sh -d src/dominio-zeno-ej1.pddl -p src/problema-zeno-ej1.pddl"
+        },
+        {
+            "label": "zeno2",
+            "type": "shell",
+            "command": "htnp/htnp.sh -d src/dominio-zeno-ej2.pddl -p src/problema-zeno-ej2.pddl"
+        },
+        {
+            "label": "zeno3",
+            "type": "shell",
+            "command": "htnp/htnp.sh -d src/dominio-zeno-ej3.pddl -p src/problema-zeno-ej3.pddl"
+        },
+        {
+            "label": "zeno4_1",
+            "type": "shell",
+            "command": "htnp/htnp.sh -d src/dominio-zeno-ej4_1.pddl -p src/problema-zeno-ej4_1.pddl"
+        }
+    ]
+}

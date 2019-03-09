@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Descripci\363n de la pr\341ctica}{}% 1
+\BOOKMARK [1][-]{section.2}{Implementaci\363n de A*}{}% 2
+\BOOKMARK [1][-]{section.3}{Aumentando la seguridad del camino}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Consideraciones sobre el mapa}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Mejora A* \(HPA*\)}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Creaci\363n de la jeraqu\355a}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{B\372squeda de caminos}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Experimento}{}% 8
+\BOOKMARK [1][-]{section.6}{Reflexiones y mejoras posibles}{}% 9
+\BOOKMARK [1][-]{section.7}{Bibliograf\355a}{}% 10

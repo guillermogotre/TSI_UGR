@@ -1,0 +1,8 @@
+prefix=/home/guillermo/UGR/TSI/PRACTICA/catkin_ws_navegacion/devel
+
+Name: point_cloud_publisher_tutorial
+Description: Description of point_cloud_publisher_tutorial
+Version: 0.2.3
+Cflags: 
+Libs: -L/home/guillermo/UGR/TSI/PRACTICA/catkin_ws_navegacion/devel/lib 
+Requires: 

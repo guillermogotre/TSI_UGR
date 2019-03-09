@@ -1,0 +1,231 @@
+ff: parsing domain file
+domain 'BELKAN' defined
+ ... done.
+ff: parsing problem file
+problem 'EJ1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   48 into depth [1]
+                                  47            [1][2][3]
+                                  46            [1][2][3][4]
+                                  45            [1][2][3][4][5]
+                                  44            [1][2][3][4][5][6][7][8]
+                                  43            [1]
+                                  42            [1][2][3][4]
+                                  41            [1][2][3][4][5][6][7][8]
+                                  40            [1][2][3]
+                                  39            [1][2][3][4]
+                                  38            [1][2][3][4][5][6][7][8][9][10][11]
+                                  37            [1][2][3][4][5][6][7][8]
+                                  36            [1]
+                                  34            [1]
+                                  33            [1][2][3][4][5][6][7][8][9][10][11]
+                                  32            [1][2]
+                                  31            [1][2][3]
+                                  30            [1]
+                                  28            [1][2][3][4][5]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1][2][3][4][5][6][7][8]
+                                  24            [1][2]
+                                  22            [1][2][3][4][5][6][7][8][9]
+                                  21            [1][2][3][4][5][6][7][8][9][10][11][12][13][14]
+                                  20            [1][2][3][4][5][6][7][8]
+                                  19            [1][2]
+                                  17            [1][2]
+                                  16            [1][2][3][4][5]
+                                  15            [1]
+                                  14            [1][2][3][4]
+                                  13            [1][2][3][4]
+                                  12            [1][2][3][4]
+                                  11            [1][2][3][4][5][6]
+                                  10            [1]
+                                   9            [1][2]
+                                   8            [1][2]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: TURN-LEFT ROBOT1 NORTE OESTE
+        1: TURN-LEFT ROBOT1 OESTE SUR
+        2: GOTO ROBOT1 SUR LOC1 LOC6
+        3: TURN-RIGHT ROBOT1 SUR OESTE
+        4: TURN-LEFT ROBOT2 NORTE OESTE
+        5: GOTO ROBOT2 OESTE LOC25 LOC24
+        6: GOTO ROBOT2 OESTE LOC24 LOC23
+        7: TURN-LEFT ROBOT2 OESTE SUR
+        8: TURN-LEFT ROBOT1 OESTE SUR
+        9: TURN-LEFT ROBOT1 SUR ESTE
+       10: GOTO ROBOT1 ESTE LOC6 LOC7
+       11: GOTO ROBOT1 ESTE LOC7 LOC8
+       12: GOTO ROBOT1 ESTE LOC8 LOC9
+       13: TURN-RIGHT ROBOT1 ESTE SUR
+       14: TURN-RIGHT ROBOT1 SUR OESTE
+       15: PICK ROBOT1 LOC9 MANZANA
+       16: GOTO ROBOT1 OESTE LOC9 LOC8
+       17: GOTO ROBOT1 OESTE LOC8 LOC7
+       18: TURN-LEFT ROBOT1 OESTE SUR
+       19: PUSH-BAG ROBOT1 MANZANA
+       20: PICK ROBOT1 LOC7 OSCAR
+       21: GOTO ROBOT1 SUR LOC7 LOC12
+       22: GOTO ROBOT1 SUR LOC12 LOC17
+       23: TURN-RIGHT ROBOT1 SUR OESTE
+       24: DROP ROBOT1 LOC17 OSCAR
+       25: GOTO ROBOT1 OESTE LOC17 LOC16
+       26: TURN-RIGHT ROBOT1 OESTE NORTE
+       27: TURN-RIGHT ROBOT1 NORTE ESTE
+       28: PICK ROBOT1 LOC16 BIKINI
+       29: GOTO ROBOT1 ESTE LOC16 LOC17
+       30: TURN-LEFT ROBOT1 ESTE NORTE
+       31: GOTO ROBOT1 NORTE LOC17 LOC12
+       32: TURN-RIGHT ROBOT1 NORTE ESTE
+       33: TURN-RIGHT ROBOT1 ESTE SUR
+       34: GOTO ROBOT1 SUR LOC12 LOC17
+       35: GOTO-SPECIAL ROBOT1 SUR LOC17 LOC22 AGUA BIKINI
+       36: TURN-LEFT ROBOT1 SUR ESTE
+       37: GOTO ROBOT1 ESTE LOC22 LOC23
+       38: TURN-RIGHT ROBOT1 ESTE SUR
+       39: TURN-RIGHT ROBOT1 SUR OESTE
+       40: DROP ROBOT1 LOC23 BIKINI
+       41: PICK ROBOT1 LOC23 ALGORITMO
+       42: GIVE-COOP ROBOT1 ROBOT2 LOC23 ALGORITMO
+       43: PICK ROBOT1 LOC23 BIKINI
+       44: GOTO-SPECIAL ROBOT1 OESTE LOC23 LOC22 AGUA BIKINI
+       45: TURN-LEFT ROBOT1 OESTE SUR
+       46: TURN-LEFT ROBOT1 SUR ESTE
+       47: TURN-LEFT ROBOT2 SUR ESTE
+       48: GOTO ROBOT2 ESTE LOC23 LOC24
+       49: GOTO ROBOT2 ESTE LOC24 LOC25
+       50: TURN-RIGHT ROBOT2 ESTE SUR
+       51: GIVE ROBOT2 LOC25 ALGORITMO PROFESOR
+       52: TURN-RIGHT ROBOT2 SUR OESTE
+       53: GOTO ROBOT2 OESTE LOC25 LOC24
+       54: GOTO ROBOT2 OESTE LOC24 LOC23
+       55: TURN-LEFT ROBOT2 OESTE SUR
+       56: GOTO ROBOT1 ESTE LOC22 LOC23
+       57: GIVE-COOP ROBOT1 ROBOT2 LOC23 BIKINI
+       58: PUSH-BAG ROBOT2 BIKINI
+       59: GOTO ROBOT1 ESTE LOC23 LOC24
+       60: TURN-RIGHT ROBOT1 ESTE SUR
+       61: TURN-RIGHT ROBOT1 SUR OESTE
+       62: PICK ROBOT1 LOC24 BIKINI
+       63: GOTO ROBOT1 OESTE LOC24 LOC23
+       64: GOTO-SPECIAL ROBOT1 OESTE LOC23 LOC22 AGUA BIKINI
+       65: TURN-RIGHT ROBOT1 OESTE NORTE
+       66: GOTO ROBOT1 NORTE LOC22 LOC17
+       67: DROP ROBOT1 LOC17 BIKINI
+       68: PULL-BAG ROBOT1 MANZANA
+       69: TURN-RIGHT ROBOT2 SUR OESTE
+       70: GOTO-SPECIAL ROBOT2 OESTE LOC23 LOC22 AGUA BIKINI
+       71: TURN-RIGHT ROBOT2 OESTE NORTE
+       72: GOTO ROBOT2 NORTE LOC22 LOC17
+       73: GIVE-COOP ROBOT1 ROBOT2 LOC17 MANZANA
+       74: PICK ROBOT1 LOC17 OSCAR
+       75: PUSH-BAG ROBOT1 OSCAR
+       76: PICK ROBOT1 LOC17 ROSA
+       77: GOTO ROBOT1 NORTE LOC17 LOC12
+       78: TURN-RIGHT ROBOT1 NORTE ESTE
+       79: GOTO ROBOT1 ESTE LOC12 LOC13
+       80: DROP ROBOT1 LOC13 ROSA
+       81: GOTO ROBOT2 NORTE LOC17 LOC12
+       82: PULL-BAG ROBOT1 OSCAR
+       83: TURN-RIGHT ROBOT2 NORTE ESTE
+       84: GOTO ROBOT2 ESTE LOC12 LOC13
+       85: DROP ROBOT2 LOC13 MANZANA
+       86: GIVE-COOP ROBOT1 ROBOT2 LOC13 OSCAR
+       87: TURN-LEFT ROBOT2 ESTE NORTE
+       88: PICK ROBOT1 LOC13 ROSA
+       89: GIVE ROBOT2 LOC13 OSCAR LEONARDO
+       90: GIVE-COOP ROBOT1 ROBOT2 LOC13 ROSA
+       91: TURN-RIGHT ROBOT2 NORTE ESTE
+       92: GOTO ROBOT2 ESTE LOC13 LOC14
+       93: GOTO ROBOT2 ESTE LOC14 LOC15
+       94: GOTO ROBOT1 ESTE LOC13 LOC14
+       95: TURN-RIGHT ROBOT1 ESTE SUR
+       96: TURN-RIGHT ROBOT1 SUR OESTE
+       97: GOTO ROBOT1 OESTE LOC14 LOC13
+       98: TURN-RIGHT ROBOT2 ESTE SUR
+       99: PICK ROBOT1 LOC13 ORO
+      100: PUSH-BAG ROBOT1 ORO
+      101: PICK ROBOT1 LOC13 MANZANA
+      102: TURN-RIGHT ROBOT2 SUR OESTE
+      103: TURN-RIGHT ROBOT2 OESTE NORTE
+      104: GOTO ROBOT2 NORTE LOC15 LOC10
+      105: GOTO ROBOT1 OESTE LOC13 LOC12
+      106: TURN-RIGHT ROBOT1 OESTE NORTE
+      107: GOTO ROBOT1 NORTE LOC12 LOC7
+      108: TURN-RIGHT ROBOT1 NORTE ESTE
+      109: GOTO ROBOT1 ESTE LOC7 LOC8
+      110: GOTO ROBOT1 ESTE LOC8 LOC9
+      111: GOTO ROBOT2 NORTE LOC10 LOC5
+      112: TURN-LEFT ROBOT2 NORTE OESTE
+      113: DROP ROBOT2 LOC5 ROSA
+      114: TURN-LEFT ROBOT1 ESTE NORTE
+      115: GOTO ROBOT1 NORTE LOC9 LOC4
+      116: TURN-RIGHT ROBOT1 NORTE ESTE
+      117: GOTO ROBOT1 ESTE LOC4 LOC5
+      118: DROP ROBOT1 LOC5 MANZANA
+      119: PULL-BAG ROBOT1 ORO
+      120: GIVE-COOP ROBOT1 ROBOT2 LOC5 ORO
+      121: PICK ROBOT1 LOC5 ROSA
+      122: GIVE ROBOT2 LOC5 ORO PRINCIPE
+      123: GIVE-COOP ROBOT1 ROBOT2 LOC5 ROSA
+      124: PICK ROBOT1 LOC5 MANZANA
+      125: GOTO ROBOT2 OESTE LOC5 LOC4
+      126: GOTO ROBOT2 OESTE LOC4 LOC3
+      127: TURN-RIGHT ROBOT1 ESTE SUR
+      128: TURN-RIGHT ROBOT1 SUR OESTE
+      129: GOTO ROBOT1 OESTE LOC5 LOC4
+      130: GOTO ROBOT1 OESTE LOC4 LOC3
+      131: TURN-LEFT ROBOT2 OESTE SUR
+      132: GOTO ROBOT2 SUR LOC3 LOC8
+      133: TURN-LEFT ROBOT1 OESTE SUR
+      134: GOTO ROBOT1 SUR LOC3 LOC8
+      135: TURN-RIGHT ROBOT2 SUR OESTE
+      136: GOTO ROBOT2 OESTE LOC8 LOC7
+      137: TURN-RIGHT ROBOT1 SUR OESTE
+      138: GOTO ROBOT1 OESTE LOC8 LOC7
+      139: TURN-RIGHT ROBOT2 OESTE NORTE
+      140: GOTO ROBOT2 NORTE LOC7 LOC2
+      141: TURN-LEFT ROBOT2 NORTE OESTE
+      142: GOTO ROBOT2 OESTE LOC2 LOC1
+      143: GOTO ROBOT1 OESTE LOC7 LOC6
+      144: TURN-RIGHT ROBOT1 OESTE NORTE
+      145: GOTO ROBOT1 NORTE LOC6 LOC1
+      146: GIVE ROBOT2 LOC1 ROSA PRINCESA
+      147: GIVE-COOP ROBOT1 ROBOT2 LOC1 MANZANA
+      148: TURN-LEFT ROBOT2 OESTE SUR
+      149: GOTO ROBOT2 SUR LOC1 LOC6
+      150: TURN-LEFT ROBOT2 SUR ESTE
+      151: GOTO ROBOT2 ESTE LOC6 LOC7
+      152: TURN-RIGHT ROBOT2 ESTE SUR
+      153: GOTO ROBOT2 SUR LOC7 LOC12
+      154: GOTO ROBOT2 SUR LOC12 LOC17
+      155: GOTO-SPECIAL ROBOT2 SUR LOC17 LOC22 AGUA BIKINI
+      156: TURN-RIGHT ROBOT2 SUR OESTE
+      157: GOTO ROBOT2 OESTE LOC22 LOC21
+      158: GIVE ROBOT2 LOC21 MANZANA BRUJA
+     
+
+time spent:    0.04 seconds instantiating 1553 easy, 28 hard action templates
+               0.00 seconds reachability analysis, yielding 290 facts and 907 actions
+               0.00 seconds creating final representation with 285 relevant facts, 10 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+              3311.73 seconds searching, evaluating 169760 states, to a max depth of 14
+              3311.77 seconds total time

@@ -1,0 +1,8 @@
+prefix=/home/guillermo/UGR/TSI/PRACTICA/catkin_ws_navegacion/install
+
+Name: navigation_stage
+Description: Description of navigation_stage
+Version: 0.2.3
+Cflags: 
+Libs: -L/home/guillermo/UGR/TSI/PRACTICA/catkin_ws_navegacion/install/lib 
+Requires: 
